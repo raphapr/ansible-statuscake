@@ -27,6 +27,11 @@ class StatusCake:
         else:
             self.check_rate = check_rate
 
+        if not test_type:
+            self.test_type = "HTTP"
+        else:
+            self.test_type = test_type
+
     def check_response(self,response):
         if response['Success'] == False:
             self.module.exit_json(changed=False, meta= response['Message'])
