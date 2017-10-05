@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Raphael P Ribeiro
+  description: Ansible module to manage statuscake tests
+  company: raphapr ltd
+  issue_tracker_url: https://github.com/raphapr/ansible-statuscak/issues
+  license: GPL3
+  min_ansible_version: 2.2
+  galaxy_tags: []
+
+dependencies: []

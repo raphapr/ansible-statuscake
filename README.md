@@ -1,6 +1,6 @@
 # Ansible-statuscake
 
-Ansible module for manage tests on statuscake API. 
+Ansible module for manage statuscake tests on StatusCake API.
 
 ## Requirements
 
@@ -54,7 +54,6 @@ Ansible 2.2+
         timeout: 500
         test_tags: "GoogleWeb"
         user_agent: "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"
-      with_items: "{{ tests }}"
 ```
 
 ``` bash
